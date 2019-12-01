@@ -1,0 +1,17 @@
+name:               advent2019
+version:            0.1.0.0
+synopsis:           Haskell solutions for Advent of Code 2019
+description:        Solutions to Advent of Code 2019
+license:            PublicDomain
+license-file:       LICENSE
+author:             Sondre Nilsen
+maintainer:         nilsen.sondre@gmail.com
+build-type:         Simple
+extra-source-files: CHANGELOG.md
+cabal-version:      >= 1.10
+
+executable aoc01
+  main-is:          day01.hs
+  hs-source-dirs:   src
+  build-depends:    base == 4.12.*
+  default-language: Haskell2010
