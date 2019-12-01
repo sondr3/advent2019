@@ -1,11 +1,11 @@
-{ mkDerivation, base, split, stdenv }:
+{ mkDerivation, base, stdenv }:
 mkDerivation {
-  pname = "christmas";
+  pname = "advent2019";
   version = "0.1.0.0";
   src = ./.;
   isLibrary = false;
   isExecutable = true;
-  executableHaskellDepends = [ base split ];
-  description = "Haskell solutions for Christmas 2019";
+  executableHaskellDepends = [ base ];
+  description = "Haskell solutions for Advent of Code 2019";
   license = stdenv.lib.licenses.publicDomain;
 }
