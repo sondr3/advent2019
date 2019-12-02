@@ -15,3 +15,9 @@ executable aoc01
   hs-source-dirs:   src
   build-depends:    base == 4.12.*
   default-language: Haskell2010
+
+executable aoc02
+  main-is:          day02.hs
+  hs-source-dirs:   src
+  build-depends:    base == 4.12.*, split
+  default-language: Haskell2010
